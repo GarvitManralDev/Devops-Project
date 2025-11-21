@@ -1,7 +1,6 @@
-# Database
-*.db
-*.sqlite
-*.sqlite3
+# Git
+.git
+.gitignore
 
 # Python
 __pycache__/
@@ -9,14 +8,10 @@ __pycache__/
 *$py.class
 *.so
 .Python
-env/
 venv/
+env/
 ENV/
 .venv
-
-# Flask
-instance/
-.webassets-cache
 
 # IDE
 .vscode/
@@ -33,18 +28,14 @@ Thumbs.db
 .coverage
 htmlcov/
 *.cover
-*.xml
-.pytest_cache/
-.tox/
-
-# Linting
-*.pyc
-.mypy_cache/
-.dmypy.json
-dmypy.json
 
 # Documentation
-_build/
-dist/
-*.egg-info/
-build/
+*.md
+!README.md
+
+# CI/CD
+.github/
+
+# Other
+*.log
+
